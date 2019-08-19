@@ -13,6 +13,8 @@
     "reformat:glob": "prettier --write"
   },
   "devDependencies": {
+    "@commitlint/cli": "8.1.0",
+    "@shaharmor/commitlint-config": "0.0.1",
     "@shaharmor/eslint-config": "1.0.9",
     "@shaharmor/prettier-config": "1.0.1",
     "@shaharmor/tsconfig": "0.0.4",
