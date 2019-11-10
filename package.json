@@ -1,9 +1,24 @@
 {
   "name": "node-module-boilerplate",
   "version": "0.0.0",
+  "description": "node-module-boilerplate",
+  "license": "MIT",
   "files": [
     "dist/**/*"
   ],
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "author": {
+    "name": "Shahar Mor"
+  },
+  "homepage": "https://github.com/shaharmor/node-module-boilerplace",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaharmor/node-module-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaharmor/node-module-boilerplace/issues"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "npm run lint:tsc && npm run lint:eslint",
@@ -21,9 +36,15 @@
     "@commitlint/cli": "8.2.0",
     "@shaharmor/commitlint-config": "0.0.1",
     "@shaharmor/eslint-config": "1.2.0",
-    "@shaharmor/prettier-config": "1.0.1",
+    "@shaharmor/prettier-config": "1.1.0",
     "@shaharmor/tsconfig": "0.1.0",
     "@types/jest": "24.0.22",
+    "@typescript-eslint/eslint-plugin": "2.6.1",
+    "eslint": "6.6.0",
+    "eslint-import-resolver-typescript": "2.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "23.0.3",
+    "eslint-plugin-prettier": "3.1.1",
     "husky": "3.0.9",
     "jest": "24.9.0",
     "lint-staged": "9.4.2",
@@ -31,13 +52,5 @@
     "ts-jest": "24.1.0",
     "tsconfig-paths": "3.9.0",
     "typescript": "3.7.2"
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.6.1",
-    "eslint": "6.6.0",
-    "eslint-import-resolver-typescript": "2.0.0",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jest": "23.0.3",
-    "eslint-plugin-prettier": "3.1.1"
   }
 }
