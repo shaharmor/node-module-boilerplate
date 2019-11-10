@@ -19,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/shaharmor/node-module-boilerplace/issues"
   },
+  "keywords": [],
   "scripts": {
     "build": "tsc",
     "lint": "npm run lint:tsc && npm run lint:eslint",
