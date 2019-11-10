@@ -11,13 +11,13 @@
   "author": {
     "name": "Shahar Mor"
   },
-  "homepage": "https://github.com/shaharmor/node-module-boilerplace",
+  "homepage": "https://github.com/shaharmor/node-module-boilerplate",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shaharmor/node-module-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/shaharmor/node-module-boilerplace/issues"
+    "url": "https://github.com/shaharmor/node-module-boilerplate/issues"
   },
   "keywords": [],
   "scripts": {
