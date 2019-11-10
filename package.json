@@ -1,12 +1,17 @@
 {
   "name": "node-module-boilerplate",
   "version": "0.0.0",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
+    "build": "tsc",
     "lint": "npm run lint:tsc && npm run lint:eslint",
     "lint:all": "npm run all -- run lint",
     "lint:tsc": "tsc -p tsconfig.json --noEmit",
     "lint:eslint": "npm run lint:eslint:glob -- '**/*.{js,ts}'",
     "lint:eslint:glob": "eslint --fix --max-warnings 0",
+    "prepublish": "npm run build",
     "test": "jest",
     "test:watch": "npm run test -- '--watch'",
     "reformat": "npm run reformat:glob -- '**/*.{js,json,ts}'",
