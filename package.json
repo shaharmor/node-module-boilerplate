@@ -17,7 +17,7 @@
     "@shaharmor/commitlint-config": "0.0.1",
     "@shaharmor/eslint-config": "1.2.0",
     "@shaharmor/prettier-config": "1.0.1",
-    "@shaharmor/tsconfig": "0.0.4",
+    "@shaharmor/tsconfig": "0.1.0",
     "@types/jest": "24.0.22",
     "husky": "3.0.9",
     "jest": "24.9.0",
