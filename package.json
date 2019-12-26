@@ -36,23 +36,23 @@
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@shaharmor/commitlint-config": "0.0.2",
-    "@shaharmor/eslint-config": "1.2.2",
-    "@shaharmor/prettier-config": "1.1.1",
-    "@shaharmor/tsconfig": "0.1.1",
-    "@types/jest": "24.0.23",
-    "@typescript-eslint/eslint-plugin": "2.9.0",
-    "eslint": "6.7.2",
+    "@shaharmor/eslint-config": "1.2.7",
+    "@shaharmor/prettier-config": "1.2.0",
+    "@shaharmor/tsconfig": "0.1.2",
+    "@types/jest": "24.0.24",
+    "@typescript-eslint/eslint-plugin": "2.13.0",
+    "eslint": "6.8.0",
     "eslint-import-resolver-typescript": "2.0.0",
-    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-import": "2.19.1",
     "eslint-plugin-jest": "23.1.1",
-    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-prettier": "3.1.2",
     "husky": "3.1.0",
     "jest": "24.9.0",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
-    "sort-package-json": "1.27.0",
+    "sort-package-json": "1.31.0",
     "ts-jest": "24.2.0",
     "tsconfig-paths": "3.9.0",
-    "typescript": "3.7.2"
+    "typescript": "3.7.4"
   }
 }

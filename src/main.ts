@@ -1,3 +1,5 @@
-export function helloWorld() {
-  return 'Hello World';
+export class Main {
+  public static helloWorld() {
+    return 'Hello World';
+  }
 }

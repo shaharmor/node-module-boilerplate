@@ -1,7 +1,9 @@
-import { helloWorld } from '@/main';
+import { Main } from '@/main';
 
 describe('main', () => {
-  it('returns "Hello World"', () => {
-    expect(helloWorld()).toEqual('Hello World');
+  describe('.helloWorld()', () => {
+    it('returns "Hello World"', () => {
+      expect(Main.helloWorld()).toEqual('Hello World');
+    });
   });
 });
