@@ -23,14 +23,13 @@
   "scripts": {
     "build": "tsc",
     "lint": "npm run lint:tsc && npm run lint:eslint",
-    "lint:all": "npm run all -- run lint",
     "lint:eslint": "npm run lint:eslint:glob -- '**/*.{js,ts}'",
     "lint:eslint:glob": "eslint --fix --max-warnings 0",
     "lint:tsc": "tsc -p tsconfig.json --noEmit",
     "prepublish": "npm run build",
-    "reformat": "npm run reformat:glob -- '**/*.{js,json,ts}'",
+    "reformat": "npm run reformat:glob -- '**/*.{js,ts}'",
     "reformat:glob": "prettier --write",
-    "test": "jest",
+    "test": "NODE_ENV=development jest",
     "test:watch": "npm run test -- '--watch'"
   },
   "devDependencies": {
@@ -40,6 +39,7 @@
     "@shaharmor/prettier-config": "1.2.0",
     "@shaharmor/tsconfig": "0.1.2",
     "@types/jest": "24.9.0",
+    "@types/node": "13.1.8",
     "@typescript-eslint/eslint-plugin": "2.16.0",
     "eslint": "6.8.0",
     "eslint-import-resolver-typescript": "2.0.0",
