@@ -2,5 +2,8 @@
   "extends": ["@shaharmor/eslint-config"],
   "env": {
     "jest": true
+  },
+  "parserOptions": {
+    "project": "tsconfig.eslint.json"
   }
 }
