@@ -23,7 +23,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "npm run lint:tsc && npm run lint:eslint",
-    "lint:eslint": "npm run lint:eslint:glob -- '**/*.ts'",
+    "lint:eslint": "npm run lint:eslint:glob -- 'src/**/*.ts'",
     "lint:eslint:glob": "eslint --fix --max-warnings 0",
     "lint:tsc": "tsc --noEmit",
     "prepublish": "npm run build",
