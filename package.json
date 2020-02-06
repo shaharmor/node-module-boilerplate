@@ -21,7 +21,8 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf ./coverage ./dist",
     "lint": "npm run lint:eslint",
     "lint:eslint": "npm run lint:eslint:glob -- 'src/**/*.ts'",
     "lint:eslint:glob": "eslint --fix --max-warnings 0",
