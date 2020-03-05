@@ -23,12 +23,10 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "clean": "rm -rf ./coverage ./dist",
-    "lint": "npm run lint:eslint",
-    "lint:eslint": "npm run lint:eslint:glob -- 'src/**/*.ts'",
-    "lint:eslint:glob": "eslint --fix --max-warnings 0",
+    "lint": "eslint . --fix --max-warnings 0 --ext .js,.ts",
     "prepublish": "npm run build",
-    "test": "NODE_ENV=development jest",
-    "test:watch": "npm run test -- '--watch'"
+    "setup": "npm ci",
+    "test": "NODE_ENV=development jest"
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
