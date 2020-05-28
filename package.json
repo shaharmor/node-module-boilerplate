@@ -48,7 +48,7 @@
     "lint-staged": "10.2.6",
     "merge-options": "2.0.0",
     "prettier": "2.0.5",
-    "sort-package-json": "1.42.3",
+    "sort-package-json": "1.44.0",
     "ts-jest": "26.0.0",
     "tsconfig-paths": "3.9.0",
     "typescript": "3.9.3"
