@@ -51,6 +51,6 @@
     "sort-package-json": "1.44.0",
     "ts-jest": "26.1.0",
     "tsconfig-paths": "3.9.0",
-    "typescript": "3.9.3"
+    "typescript": "3.9.5"
   }
 }
