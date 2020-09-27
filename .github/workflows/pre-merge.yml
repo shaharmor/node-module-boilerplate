@@ -13,8 +13,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: ${{ OS_VERSIONS }}
-        node: ${{ NODE_VERSIONS }}
+        os: ${{ env.OS_VERSIONS }}
+        node: ${{ env.NODE_VERSIONS }}
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node }}
@@ -27,8 +27,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: ${{ OS_VERSIONS }}
-        node: ${{ NODE_VERSIONS }}
+        os: ${{ env.OS_VERSIONS }}
+        node: ${{ env.NODE_VERSIONS }}
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node }}
