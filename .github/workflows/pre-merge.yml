@@ -4,10 +4,6 @@ on:
   pull_request:
     branches: [ $default-branch ]
 
-env:
-  OS_VERSIONS: [ubuntu-16.04]
-  NODE_VERSIONS: [12.x]
-
 jobs:
   lint:
     runs-on: ${{ matrix.os }}
