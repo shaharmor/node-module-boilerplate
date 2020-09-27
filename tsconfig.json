@@ -3,10 +3,18 @@
   "compilerOptions": {
     "baseUrl": ".",
     "declaration": true,
+    "lib": [
+      "ES2019"
+    ],
     "outDir": "dist",
     "paths": {
-      "@/*": ["src/*"]
-    }
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "target": "ES2019"
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
