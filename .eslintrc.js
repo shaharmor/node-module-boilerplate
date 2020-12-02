@@ -4,4 +4,7 @@ module.exports = {
     node: true,
     jest: true,
   },
+  rules: {
+    "no-console": "error"
+  }
 };
