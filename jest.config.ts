@@ -8,5 +8,4 @@ const config: Config.InitialOptions = {
   moduleNameMapper: pathsToModuleNameMapper(tsConfig.compilerOptions.paths, { prefix: '<rootDir>/' }),
 };
 
-// eslint-disable-next-line import/no-default-export
 export default config;
