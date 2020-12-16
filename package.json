@@ -32,7 +32,7 @@
     "@shaharmor/eslint-config": "7.15.1",
     "@shaharmor/prettier-config": "2.2.0",
     "@shaharmor/tsconfig": "4.1.2",
-    "@types/jest": "26.0.17",
+    "@types/jest": "26.0.19",
     "@types/node": "14.14.10",
     "eslint": "7.15.0",
     "husky": "4.3.5",
