@@ -7,6 +7,6 @@ module.exports = {
     jest: true,
   },
   parserOptions: {
-    tsconfigRootDir: __dirname
-  }
+    tsconfigRootDir: __dirname,
+  },
 };
