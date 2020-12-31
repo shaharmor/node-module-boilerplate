@@ -23,7 +23,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "clean": "rm -rf ./coverage ./dist",
-    "lint": "eslint . --fix --max-warnings 0",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "npm run lint -- --fix",
     "prepublish": "npm run build",
     "setup": "npm ci",
     "test": "jest"
