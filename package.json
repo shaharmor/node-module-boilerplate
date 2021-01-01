@@ -30,7 +30,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@shaharmor/eslint-config": "7.16.1",
+    "@shaharmor/eslint-config": "7.16.3",
     "@shaharmor/prettier-config": "2.2.0",
     "@shaharmor/tsconfig": "4.1.2",
     "@types/jest": "26.0.19",
