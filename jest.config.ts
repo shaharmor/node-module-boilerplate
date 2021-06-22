@@ -1,11 +1,18 @@
 import type { Config } from '@jest/types';
 import { pathsToModuleNameMapper } from 'ts-jest/utils';
-import * as tsConfig from './tsconfig.json';
+import { compilerOptions } from './tsconfig.json';
 
 const config: Config.InitialOptions = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  moduleNameMapper: pathsToModuleNameMapper(tsConfig.compilerOptions.paths, { prefix: '<rootDir>/' }),
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
+  globals: {
+    'ts-jest': {
+      diagnostics: {
+        warnOnly: true,
+      },
+    },
+  },
 };
 
 export default config;
